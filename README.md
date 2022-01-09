@@ -135,10 +135,10 @@ void loop() {
 Inicialmente importamos as bibliotecas necessárias.
 
 ```cpp
-#include <WiFi.h> \\ Wifi
-#include "HTTPClient.h" \\ Comunicação com a Internet
-#include <DHT.h> \\ Sensor DHT
-#include <Wire.h> \\ Sensor DHT
+#include <WiFi.h> // Wifi
+#include "HTTPClient.h" // Comunicação com a Internet
+#include <DHT.h> // Sensor DHT
+#include <Wire.h> // Sensor DHT
 ```
 
 Em seguida é necessário definir o nome (WIFI_SSID) e a senha (WIFI_PASSWORD) da sua rede WiFi.
@@ -148,13 +148,13 @@ Cole o link do seu projeto na variável "ID_GOOGLE_SHEET".
 A parte final do escopo é a definição do pino do que o sensor DHT estará conectado.
 
 ```cpp
-#define WIFI_SSID "SUA REDE WI-FI" \\ Nome da sua rede Wi-Fi
-#define WIFI_PASSWORD "SENHA  DA SUA REDE WI-FI" \\ Senha da sua rede Wi-Fi
+#define WIFI_SSID "SUA REDE WI-FI" // Nome da sua rede Wi-Fi
+#define WIFI_PASSWORD "SENHA  DA SUA REDE WI-FI" // Senha da sua rede Wi-Fi
 
-#define ID_GOOGLE_SHEET "LINK DA SUA PLANILHA" \\ Link do seu projeto do Google Sheets
+#define ID_GOOGLE_SHEET "LINK DA SUA PLANILHA" // Link do seu projeto do Google Sheets
 
-#define DHT_PIN 14 \\ Pino do Sensor DHT
-DHT dht(DHT_PIN, DHT11); \\ Sensor DHT
+#define DHT_PIN 14 // Pino do Sensor DHT
+DHT dht(DHT_PIN, DHT11); // Sensor DHT
 ```
 
 Na função setup iremos conectar na rede WiFi e iniciar o sensor DHT e o Serial.
@@ -162,11 +162,11 @@ Na função setup iremos conectar na rede WiFi e iniciar o sensor DHT e o Serial
 ```cpp
 void setup() {
   
-  Serial.begin(115200); \\ Serial
-  dht.begin(); \\ Sensor DHT
+  Serial.begin(115200); // Serial
+  dht.begin(); // Sensor DHT
   delay(500);
 
-  WiFi.begin(WIFI_SSID, WIFI_PASSWORD); \\ WiFi
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD); // WiFi
   Serial.print("Conectando");
   
   while (WiFi.status() != WL_CONNECTED) {
@@ -180,16 +180,16 @@ void setup() {
 }
 ```
 
-Na função loop iremos criar as variáveis para Temperatura (vfTemp), Umidade do ar (viUmi) e para o link do projeto (url).
+Na função loop iremos criar as variáveis para Temperatura (vfTemp), Umidade do ar (viUmi) e para o link do request (url).
 
 Na parte final da função loop é realizado o request para enviar as informações medidas.
 
 ```cpp
 void loop() {
   
-  float vfTemp = dht.readTemperature();
-  int viUmi = dht.readHumidity();
-  String url = String(ID_GOOGLE_SHEET) + "?" + "Temperatura=" + vfTemp + "&Umidade=" + viUmi;
+  float vfTemp = dht.readTemperature(); // Temperatura
+  int viUmi = dht.readHumidity(); // Umidade do Ar
+  String url = String(ID_GOOGLE_SHEET) + "?" + "Temperatura=" + vfTemp + "&Umidade=" + viUmi; // Link do Request
   
   Serial.println("Realizando o envio...");
   HTTPClient http;
