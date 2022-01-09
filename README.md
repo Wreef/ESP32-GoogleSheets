@@ -100,6 +100,19 @@ Copie e guarde o código do seu projeto. Iremos utilizar mais tarde.
   <img src="https://i.ibb.co/xYs27L2/googlesheet13.png" alt="1"/>
 </p>
 
+## Esquema de Montagem para Enviar o Código para o ESP32
+
+DHT | ESP32
+:---: | :---:
+pin 1 | 3.3V
+pin 2 | 14 com pull-up
+pin 3 | -
+pin 4 | GND
+
+<p align="center">
+  <img src="https://i.ibb.co/6DCrcsj/proj1-fim-esp.png" alt="7"/>
+</p>
+
 ## Código do ESP32
 
 ```cpp
