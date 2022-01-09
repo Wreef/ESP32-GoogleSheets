@@ -12,6 +12,27 @@ Iremos utilizar um sensor DHT para monitorar temperatura e umidade do ar. Os dad
 - Resistor de 10 kOhm;
 - Jumpers para conexão de componentes.
 
+## Biblioteca do Sensor DHT
+Para utilizar o sensor DHT é necessário instalar bibliotecas.
+
+Em sua Arduino IDE vá em: Sketch > Incluir Biblioteca > Gerenciar Bibliotecas
+
+<p align="center">
+  <img src="https://i.ibb.co/xC958xP/preparando-5.png" alt="5"/>
+</p>
+
+Pesquise por "DHT", escolha a opção da imagem e clique em "Instalar" (como eu já tinha instalado, não apareceu a opção "Instalar").
+
+<p align="center">
+  <img src="https://i.ibb.co/xMxNdq7/dht.png" alt="5"/>
+</p>
+
+Pesquise por "Adafruit Unified Sensor", escolha a opção da imagem e clique em "Instalar" (como eu já tinha instalado, não apareceu a opção "Instalar").
+
+<p align="center">
+  <img src="https://i.ibb.co/v35tF0h/dh2.png" alt="5"/>
+</p>
+
 ## Google Sheets
 Inicialmente é necessário criar uma planilha no Google Drive.
 
@@ -200,3 +221,10 @@ void loop() {
   delay(15000);
 }
 ```
+
+## Preparando a IDE do Arduino para utilizar o ESP32.
+Em sua Arduino IDE vá em: Arquivo > Preferências
+
+<p align="center">
+  <img src="https://i.ibb.co/pfNTZ7p/preparando-1.png" alt="1"/>
+</p>
