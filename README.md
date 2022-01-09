@@ -110,7 +110,7 @@ pin 3 | -
 pin 4 | GND
 
 <p align="center">
-  <img src="https://i.ibb.co/6DCrcsj/proj1-fim-esp.png" alt="7"/>
+  <img src="https://i.ibb.co/VSXsr2g/ESP32-Boards-bb.png" alt="7"/>
 </p>
 
 ## Código do ESP32
