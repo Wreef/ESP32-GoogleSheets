@@ -228,3 +228,17 @@ Em sua Arduino IDE vá em: Arquivo > Preferências
 <p align="center">
   <img src="https://i.ibb.co/pfNTZ7p/preparando-1.png" alt="1"/>
 </p>
+
+Em "URLs Adicionais para Gerenciadores de Placas" escreva: https://dl.espressif.com/dl/package_esp32_index.json
+
+Dê "OK" para salvar.
+
+<p align="center">
+  <img src="https://i.ibb.co/qydsfk8/esp32-preg.png" alt="1"/>
+</p>
+
+Vá em: Ferramentas > Placa > ESP32 Arduino > DOIT ESP32 DEVKIT v1
+
+<p align="center">
+  <img src="https://i.ibb.co/jMtdJjk/esp32222.png" alt="1"/>
+</p>
