@@ -242,3 +242,13 @@ Vá em: Ferramentas > Placa > ESP32 Arduino > DOIT ESP32 DEVKIT v1
 <p align="center">
   <img src="https://i.ibb.co/jMtdJjk/esp32222.png" alt="1"/>
 </p>
+
+Agora é só enviar o código!
+
+## Conclusão
+Esse tipo de projeto é bastante útil quando o se utiliza o ESP32 em monitoramento. Além de sergratuito o Google Sheet suporta, aproximadamente, 330 mil linhas. Dependendo do intervalo de envio a planilha pode durar bastante.
+
+# Obrigado(a)!
+<p align="center">
+  <img src="https://i.ibb.co/NsfrRKy/ezgif-com-gif-maker.gif" alt="12"/>
+</p>
