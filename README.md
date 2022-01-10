@@ -179,7 +179,7 @@ Em seguida é necessário definir o nome (WIFI_SSID) e a senha (WIFI_PASSWORD) d
 
 Cole o link do seu projeto na variável "ID_GOOGLE_SHEET".
 
-A parte final do escopo é a definição do pino do que o sensor DHT estará conectado.
+A parte final do escopo é a definição do pino que o sensor DHT estará conectado.
 
 ```cpp
 #define WIFI_SSID "SUA REDE WI-FI" // Nome da sua rede Wi-Fi
