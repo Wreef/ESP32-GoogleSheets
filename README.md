@@ -259,7 +259,7 @@ Vá em: Ferramentas > Placa > ESP32 Arduino > DOIT ESP32 DEVKIT v1
 Agora é só enviar o código!
 
 ## Conclusão
-Esse tipo de projeto é bastante útil quando o se utiliza o ESP32 em monitoramento. Além de ser gratuito o Google Sheets suporta, aproximadamente, 330 mil linhas. Dependendo do intervalo de envio a planilha pode durar bastante.
+Esse tipo de projeto é bastante útil quando se utiliza o ESP32 em monitoramento. Além de ser gratuito o Google Sheets suporta, aproximadamente, 330 mil linhas. Dependendo do intervalo de envio a planilha pode durar bastante.
 
 # Obrigado(a)!
 <p align="center">
