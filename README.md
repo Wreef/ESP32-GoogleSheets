@@ -4,7 +4,7 @@
 Neste guia, iremos montar um datalogger usando uma planilha do Google como banco de dados.
 ***
 ## Contextualização
-Iremos utilizar um sensor DHT para monitorar temperatura e umidade do ar. Os dados serão enviados, em formato de planilha, para o Google Drive. Os dados serão atualizados automaticamente, permitindo, além do armazenamento, a visualização dos dados em tempo real.
+Iremos utilizar um sensor DHT para monitorar temperatura e umidade do ar. Os dados serão enviados, em formato de planilha, para o Google Drive. Os dados serão atualizados automaticamente, permitindo, além do armazenamento, a visualização em tempo real.
 
 ## Requerimentos
 - Placa ESP32;
