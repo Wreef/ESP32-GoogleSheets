@@ -261,7 +261,7 @@ Agora é só enviar o código!
 ## Conclusão
 Esse tipo de projeto é bastante útil quando se utiliza o ESP32 em monitoramento. Além de ser gratuito o Google Sheets suporta, aproximadamente, 330 mil linhas. Dependendo do intervalo de envio a planilha pode durar bastante.
 
-# Obrigado(a)!
+# Até mais!
 <p align="center">
   <img src="https://i.ibb.co/NsfrRKy/ezgif-com-gif-maker.gif" alt="12"/>
 </p>
